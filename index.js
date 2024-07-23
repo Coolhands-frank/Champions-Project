@@ -3,7 +3,7 @@ import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com
 
 // initilizing and specifying firebase database
 const appSettings = {
-    databaseURL: "https://champions-endorsement-default-rtdb.europe-west1.firebasedatabase.app/"
+    databaseURL: "https://champions-2-default-rtdb.europe-west1.firebasedatabase.app/"
 }
 const app = initializeApp(appSettings)
 const database = getDatabase(app)

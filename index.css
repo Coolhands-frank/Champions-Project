@@ -68,6 +68,11 @@ button {
     background: #28A9F1;
 }
 
+button:hover {
+    cursor: pointer;
+    color: gray;
+}
+
 .endorsement-headtext {
     text-align: center;
 }
